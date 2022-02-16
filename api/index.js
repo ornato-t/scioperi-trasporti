@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 80 //If a port is specified by the host (Heroku, Glitch...) use that, otherwise use 80. Will use 80 if ran locally
+const port = process.env.PORT //If a port is specified by the host (Heroku, Glitch...) use that
 
 const Parser = require('rss-parser');
 const parser = new Parser();
