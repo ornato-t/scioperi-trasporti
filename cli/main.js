@@ -26,8 +26,10 @@ let obj = Object();
         arr.forEach(elem => {
             console.log('Modalità: ' + elem.modalita)
             console.log('Data di fine: ' + elem.data_fine)
+            console.log('Settore ' + elem.settore)
             console.log('Regione: ' + elem.regione)
             console.log('Provincia: ' + elem.provincia)
+            console.log('Categoria: ' + elem.categoria_interessata)
             console.log()
         })
     } else {
@@ -35,8 +37,10 @@ let obj = Object();
             if (elem.regione.toLowerCase() == regione[0].toLowerCase() || elem.regione == 'Italia') {
                 console.log('Modalità: ' + elem.modalita)
                 console.log('Data di fine: ' + elem.data_fine)
+                console.log('Settore ' + elem.settore)
                 console.log('Regione: ' + elem.regione)
                 console.log('Provincia: ' + elem.provincia)
+                console.log('Categoria: ' + elem.categoria_interessata)
                 console.log()
             }
         })

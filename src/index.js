@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT //If a port is specified by the host (Heroku, Glitch...) use that
-
+const port = process.env.PORT
 const Parser = require('rss-parser');
 const parser = new Parser();
 
