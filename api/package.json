@@ -1,6 +1,10 @@
 {
-  "dependencies": {
-    "express": "^4.17.2",
-    "rss-parser": "^3.12.0"
-  }
+    "name": "scioperi_trasporti",
+    "dependencies": {
+        "express": "^4.17.2",
+        "rss-parser": "^3.12.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
 }
