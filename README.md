@@ -62,10 +62,10 @@ The command `npm install` will install the required "rss-parser" module.
 
 ## Commands
 * `node main` shows any planned strike included in the dataset provided by the Ministry
-* `node main REGION` where REGION is the name of a region. Shows any planned strike for that region, including nation wide ones. The REGION parameter is NOT CaSe SeNsItIvE, the script does not accepts both uppercase and lowercase inputs.
+* `node main REGION` where REGION is the name of a region. Shows any planned strike for that region, including nation wide ones. The REGION parameter is NOT CaSe SeNsItIvE, the script accepts both uppercase and lowercase inputs.
 
-_Note: the REGION parameter is to be provided in Italian. Use the Italian name of the region, not the English one_  
-_Example: `node main Piemonte` will show any planned nation wide strike, strikes planned for the Piedmont region but NOT those planned for other regions._ù
+_Note: the REGION parameter is to be provided in Italian. Use the Italian name of the region, not the English one._  
+_Example: `node main Piemonte` will show any planned nation wide strike, strikes planned for the Piedmont region but NOT those planned for other regions._
 
 # API
 The API offers three functionalities:
